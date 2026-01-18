@@ -55,8 +55,8 @@ export default function RegisterPage() {
       <motion.div initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.45 }}
         className="mania-card p-6 md:p-8 space-y-4"
       >
-        <h1 className="text-3xl font-extrabold">Register</h1>
-        <p style={{ color: "var(--muted)" }}>Create a credentials account (stored in your Express JSON DB).</p>
+        <h1 className="text-center text-3xl font-extrabold">Register</h1>
+        {/* <p style={{ color: "var(--muted)" }}>Create a credentials account (stored in your Express JSON DB).</p> */}
 
         <form onSubmit={onSubmit} className="space-y-3">
           <input className="mania-input" name="name" value={form.name} onChange={onChange} placeholder="Full name" required />
@@ -66,10 +66,12 @@ export default function RegisterPage() {
             {loading ? "Creating..." : "Create Account"}
           </button>
         </form>
-
+        <div className="text-center">
         <p className="text-sm" style={{ color: "var(--muted)" }}>
           Already have an account? <Link href="/login" className="underline">Login</Link>
         </p>
+        </div>
+
       </motion.div>
     </div>
   );

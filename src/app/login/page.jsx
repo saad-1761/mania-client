@@ -47,10 +47,12 @@ export default function LoginPage() {
             {loading ? "Logging in..." : "Login with Credentials"}
           </button>
         </form>
-
-        <p className="text-sm" style={{ color: "var(--muted)" }}>
+        <div className="text-center">
+<p className="text-sm " style={{ color: "var(--muted)" }}>
           New here? <Link href="/register" className="underline">Create an account</Link>
         </p>
+        </div>
+        
       </motion.div>
     </div>
   );
