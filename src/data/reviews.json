@@ -1,0 +1,8 @@
+[
+  { "id": "r1", "user": "Ayan Rahman", "avatar": "https://i.pravatar.cc/150?img=12", "rating": 5, "date": "2025-12-12", "review": "Mania watches feel premium. The strap comfort is amazing." },
+  { "id": "r2", "user": "Nusrat Jahan", "avatar": "https://i.pravatar.cc/150?img=32", "rating": 4, "date": "2026-01-03", "review": "Looks exactly like the photos. Great packaging and finish." },
+  { "id": "r3", "user": "Sabbir Hossain", "avatar": "https://i.pravatar.cc/150?img=18", "rating": 5, "date": "2026-01-08", "review": "Dial design is classy. Perfect for formal events." },
+  { "id": "r4", "user": "Mehedi Hasan", "avatar": "https://i.pravatar.cc/150?img=51", "rating": 4, "date": "2026-01-10", "review": "Excellent value for money. Solid build quality." },
+  { "id": "r5", "user": "Tahmina Akter", "avatar": "https://i.pravatar.cc/150?img=47", "rating": 5, "date": "2026-01-13", "review": "Elegant and minimal. Compliments keep coming!" },
+  { "id": "r6", "user": "Rifat Karim", "avatar": "https://i.pravatar.cc/150?img=7", "rating": 5, "date": "2026-01-15", "review": "Top-tier look and premium feel. Highly recommended." }
+]
